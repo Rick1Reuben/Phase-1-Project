@@ -1,4 +1,5 @@
-// Sample transaction data 
+// Sample transaction data
+let transactionsData = [{
     "id": 1,
     "type": "income",
     "category": "Salary",
