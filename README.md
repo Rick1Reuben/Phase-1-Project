@@ -29,4 +29,4 @@ Deployed Backend can be accessed here
 
 ### License
 *Licenced under the MIT Licence
-Copyright (c) 2023 **Kelvin Kipchumba
+Copyright (c) 2023 **Reuben Kamau

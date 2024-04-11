@@ -1,5 +1,4 @@
-// Sample transaction data (you can replace this with data fetched from the server)
-let transactionsData = [{
+// Sample transaction data 
     "id": 1,
     "type": "income",
     "category": "Salary",
