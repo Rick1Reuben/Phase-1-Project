@@ -1,0 +1,40 @@
+{
+    "transactionsData": [
+      {
+        "id": 1,
+        "type": "income",
+        "category": "Salary",
+        "amount": 30000,
+        "date": "2024-03-29"
+      },
+      {
+        "id": 2,
+        "type": "expense",
+        "category": "Groceries",
+        "amount": 2500,
+        "date": "2024-03-30"
+      },
+      {
+        "id": 3,
+        "type": "expense",
+        "category": "Rent",
+        "amount": 10500,
+        "date": "2024-04-08"
+      },
+      {
+        "id": 4,
+        "type": "income",
+        "category": "Freelance Work",
+        "amount": 3000,
+        "date": "2024-04-07"
+      },
+      {
+        "id": 5,
+        "type": "expense",
+        "category": "Transportation",
+        "amount": 2100,
+        "date": "2024-04-06"
+      }
+    ]
+  }
+  
