@@ -35,6 +35,8 @@ let transactionsData = [{
     "date": "2024-04-06"
   }];
 
+ 
+
 // Function to add a new transaction
 function addTransaction(event) {
     event.preventDefault();
@@ -65,6 +67,7 @@ function addTransaction(event) {
 
     displayTransactions();
 }
+
 
 // Function to display transactions in the table
 function displayTransactions() {
@@ -125,48 +128,6 @@ document.querySelector('#transaction-form').addEventListener('submit', addTransa
 
 // Display transactions on page load
 window.addEventListener('DOMContentLoaded', displayTransactions);
-
-// Function to apply filters
-function applyFilters() {
-    const typeFilter = document.getElementById('type-filter').value;
-    const categoryFilter = document.getElementById('category-filter').value.toLowerCase();
-    const startDateFilter = document.getElementById('start-date-filter').value;
-    const endDateFilter = document.getElementById('end-date-filter').value;
-
-    // Filter transactions based on selected criteria
-    const filteredTransactions = transactionsData.filter(transaction => {
-        // Filter by type
-        if (typeFilter && transaction.type !== typeFilter) {
-            return false;
-        }
-        // Filter by category (case-insensitive)
-        if (categoryFilter && !transaction.category.toLowerCase().includes(categoryFilter)) {
-            return false;
-        }
-        // Filter by date range
-        if (startDateFilter && transaction.date < startDateFilter) {
-            return false;
-        }
-        if (endDateFilter && transaction.date > endDateFilter) {
-            return false;
-        }
-        return true;
-    });
-
-    // Display filtered transactions
-    displayTransactions(filteredTransactions);
-}
-
-// Function to reset filters and display all transactions
-function resetFilters() {
-    document.getElementById('type-filter').value = '';
-    document.getElementById('category-filter').value = '';
-    document.getElementById('start-date-filter').value = '';
-    document.getElementById('end-date-filter').value = '';
-
-    displayTransactions(transactionsData);
-}
-
 
 // My server ain't serving
     // Function to add a transaction to the server
