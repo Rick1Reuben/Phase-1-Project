@@ -1,4 +1,4 @@
-# KKBlog
+# Personal Finance Manager Blog
 #### The app is a simple Blog project, 09/10/2023
 #### **By Reuben Kamau**
 ## Project Description
@@ -15,8 +15,7 @@
 Deployed Frontend can be accessed here 
 Deployed Backend can be accessed here 
 ## Known Bugs
-    The application images dissapears in heroku
-    Otherwise application works perfectly well, no bugs.
+   Application works perfectly well, no bugs.
 
 ## Technologies used
     - JS
